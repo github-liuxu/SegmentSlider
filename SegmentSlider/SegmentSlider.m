@@ -82,6 +82,7 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
     self.line.frame = CGRectMake(padding, (self.frame.size.height-4)/2, self.frame.size.width-2*padding, 4);
+    self.line.layer.cornerRadius = 2;
     //移除间隔并重新添加
     for (UIView *view in [self.line subviews]) {
         [view removeFromSuperview];
