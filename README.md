@@ -14,5 +14,3 @@
     a2.percentIn = 0.6;
     a2.percentOut = 0.9;
     slider.audioSegments = @[a1,a2];
-
-/Users/meicam/Desktop/Simulator Screen Shot - iPhone 8 Plus - 2018-01-31 at 14.10.25.png
