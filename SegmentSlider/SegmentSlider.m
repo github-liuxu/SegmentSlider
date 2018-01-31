@@ -119,7 +119,7 @@
 - (UIView *)line {
     if (!_line) {
         _line = [UIView new];
-        _line.backgroundColor = [UIColor grayColor];
+        _line.backgroundColor = [UIColor colorWithWhite:1 alpha:0.2];
     }
     return _line;
 }
